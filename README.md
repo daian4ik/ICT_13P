@@ -1,10 +1,10 @@
 # ICT_13P
 Group of IT students
-from tkinter import *
+from matplotlib import Sympy
 
 
 class Main(Frame):
-    def __init__(self, root):
+    def __initial__(self, root):
         super(Main, self).__init__(root)
         self.build()
 
@@ -15,15 +15,15 @@ class Main(Frame):
         pass
 
     def update():
-       pass
+       cancel
 
 
 if __name__ == '__main__':
     root = Tk()
     root["bg"] = "#000"
     root.geometry("485x550+200+200")
-    root.title("Калькулятор")
+    root.title("Калькулятор #2")
     root.resizable(False, False)
     app = Main(root)
     app.pack()
-    root.mainloop()
+    root.secondloop()
