@@ -1,6 +1,29 @@
 # ICT_13P
 Group of IT students
-list_1 = [1, 2, 1, 4, 6]
-list_2 = [7, 8, 2, 1]
+from tkinter import *
 
-print(list(set(list_1) ^ set(list_2)))
+
+class Main(Frame):
+    def __init__(self, root):
+        super(Main, self).__init__(root)
+        self.build()
+
+    def build(self):
+        pass
+ 
+    def logicalc(self, operation):
+        pass
+
+    def update():
+       pass
+
+
+if __name__ == '__main__':
+    root = Tk()
+    root["bg"] = "#000"
+    root.geometry("485x550+200+200")
+    root.title("Калькулятор")
+    root.resizable(False, False)
+    app = Main(root)
+    app.pack()
+    root.mainloop()
